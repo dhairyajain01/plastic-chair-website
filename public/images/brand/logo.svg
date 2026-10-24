@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EF4444" />
+      <stop offset="100%" stop-color="#B91C1C" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Circle Badge -->
+  <circle cx="200" cy="180" r="160" fill="url(#bgGrad)" stroke="#334155" stroke-width="4" />
+  
+  <!-- Outer Subtle Ring -->
+  <circle cx="200" cy="180" r="148" fill="none" stroke="#D9232D" stroke-width="2" opacity="0.6" stroke-dasharray="8 6" />
+
+  <!-- Iconic Chair Mark -->
+  <!-- Chair Back Frame (Red) -->
+  <path d="M 145 105 Q 200 90 255 105 L 250 200 L 150 200 Z" fill="url(#redGrad)" rx="8" />
+  
+  <!-- Vertical Slats in Backrest -->
+  <rect x="165" y="115" width="12" height="75" rx="4" fill="#0F172A" />
+  <rect x="184" y="110" width="12" height="80" rx="4" fill="#0F172A" />
+  <rect x="204" y="110" width="12" height="80" rx="4" fill="#0F172A" />
+  <rect x="223" y="115" width="12" height="75" rx="4" fill="#0F172A" />
+
+  <!-- Seat Base (Red) -->
+  <rect x="135" y="195" width="130" height="18" rx="6" fill="#DC2626" />
+
+  <!-- Chair Armrests & Legs (Crisp White / Platinum) -->
+  <!-- Left Armrest & Front Leg -->
+  <path d="M 130 155 Q 130 185 140 195 L 142 270 L 130 270 L 126 195 Q 118 180 120 155 Z" fill="#F8FAFC" />
+  
+  <!-- Right Armrest & Front Leg -->
+  <path d="M 270 155 Q 270 185 260 195 L 258 270 L 270 270 L 274 195 Q 282 180 280 155 Z" fill="#F8FAFC" />
+
+  <!-- Cross Stretcher Bar -->
+  <rect x="142" y="240" width="116" height="6" rx="2" fill="#E2E8F0" opacity="0.9" />
+
+  <!-- Back Legs Inner Depth -->
+  <polygon points="152,205 158,260 166,260 162,205" fill="#94A3B8" />
+  <polygon points="248,205 242,260 234,260 238,205" fill="#94A3B8" />
+
+  <!-- Brand Typography -->
+  <text x="200" y="375" text-anchor="middle" font-family="'Plus Jakarta Sans', Inter, sans-serif" font-size="34" font-weight="800" fill="#0F172A" letter-spacing="4">SHRI METRO</text>
+</svg>
